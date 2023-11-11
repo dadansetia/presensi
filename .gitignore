@@ -32,6 +32,8 @@ bin/notepad++/plugins/Config/converter.ini
 
 data
 
+logs
+
 etc/apache2/sites-enabled
 etc/nginx/*
 !etc/nginx/alias
