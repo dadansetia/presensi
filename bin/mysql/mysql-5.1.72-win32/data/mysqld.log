@@ -1,0 +1,26 @@
+231111 20:35:33 [Note] Plugin 'FEDERATED' is disabled.
+231111 20:35:33  InnoDB: Initializing buffer pool, size = 8.0M
+231111 20:35:33  InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+231111 20:35:33  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+231111 20:35:33  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+231111 20:35:33  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+231111 20:35:33  InnoDB: Started; log sequence number 0 0
+231111 20:35:48 [Note] Plugin 'FEDERATED' is disabled.
+231111 20:35:49  InnoDB: Initializing buffer pool, size = 8.0M
+231111 20:35:49  InnoDB: Completed initialization of buffer pool
+231111 20:35:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+231111 20:35:59  InnoDB: Started; log sequence number 0 44233
