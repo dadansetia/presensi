@@ -11,10 +11,6 @@ user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
 
 # Laragon
 bin/heidisql/tabs.ini
@@ -39,3 +35,5 @@ etc/nginx/*
 tmp
 
 usr/tpl
+
+!www/app/config.php
