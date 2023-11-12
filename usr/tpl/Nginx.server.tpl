@@ -4,7 +4,7 @@ server {
     server_name <<HOSTNAME>> *.<<HOSTNAME>>;
     root "<<PROJECT_DIR>>";
     
-    index index.html index.htm index.php;
+    index.phpi index.html index.htm ;
  
     location / {
         try_files $uri $uri/ /index.php$is_args$args;
@@ -14,7 +14,7 @@ server {
     location ~ \.php$ {
         include snippets/fastcgi-php.conf;
         fastcgi_pass php_upstream;		
-        #fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+        #fastcgi_pass unix:/run/php/php8.0-fpm.sock;
     }
 
     # Enable SSL

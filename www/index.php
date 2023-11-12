@@ -1,22 +1,10 @@
-<?php
-if (!empty($_GET['q'])) {
-  switch ($_GET['q']) {
-    case 'info':
-      phpinfo();
-      exit;
-      break;
-  }
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laragon</title>
-  <link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="https://i.imgur.com/ky9oqct.png" type="image/png">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Works</title>
   <style>
     *,
     :before *,
@@ -116,52 +104,7 @@ if (!empty($_GET['q'])) {
 </head>
 
 <body>
-  <header>
-    <img class="header__item header--logo" src="https://i.imgur.com/ky9oqct.png" alt="Offline">
-    <h1 class="header__item header--title" title="Laragon">Laragon</h1>
-  </header>
-  <main>
-    <p>
-      <?php print($_SERVER['SERVER_SOFTWARE']); ?>
-    </p>
-    <p>
-      PHP version: <?php print PHP_VERSION; ?> <span><a title="phpinfo()" href="/?q=info">info</a></span>
-    </p>
-    <p>
-      Document Root: <?php print($_SERVER['DOCUMENT_ROOT']); ?>
-    </p>
-    <p>
-      <a title="Getting Started" href="https://laragon.org/docs">Getting Started</a>
-    </p>
-  </main>
-  <?php
-  $dirList = glob('*', GLOB_ONLYDIR);
-  if (!empty($dirList)) :  
-  ?>
-    <nav>
-      <ul>
-        <?php
-        foreach ($dirList as $key => $value) :
-          $link = 'https://' . $value . '.test';
-        ?>
-          <a href="<?php echo $link; ?>" target="_blank"><?php echo $link; ?></a>
-        <?php
-        endforeach;
-        ?>
-      </ul>
-    </nav>
-  <?php
-  else :
-  ?>
-    <aside>
-      <p class="alert">There are no directories, create your first project now</p>
-      <div>
-        <img src="https://i.imgur.com/3Sgu8XI.png" alt="Offline">
-      </div>
-    </aside>
-  <?php
-  endif;
-  ?>
+	It's Work
 </body>
 
 </html>

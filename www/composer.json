@@ -1,0 +1,9 @@
+{
+	"description": "Aplikasi Presensi",
+	"require": {
+		"php": "^8.0",
+		"cloudflare/sdk": "@stable",
+		"codeigniter4/framework": "@stable",
+		"codeigniter4/translations": "@stable"
+    }
+}
