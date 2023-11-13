@@ -1,10 +1,11 @@
 */config/development
-*/logs/*
+*/writable/logs/*
 !*/logs/index.html
 */cache/*
 !system/cache/*
 !*/cache/index.html
 !*/cache/.htaccess
+*/logs/*
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
