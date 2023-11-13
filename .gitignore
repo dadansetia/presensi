@@ -7,11 +7,7 @@
 !*/cache/.htaccess
 */logs/*
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-
+www/app/Config/SiteConfig.php
 
 # Laragon
 bin/heidisql/tabs.ini
@@ -36,5 +32,3 @@ etc/nginx/*
 tmp
 
 usr/tpl
-
-!www/app/config.php
