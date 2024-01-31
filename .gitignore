@@ -1,4 +1,4 @@
-www/app/Config/SiteConfig.php
+*www/app/Config/SiteConfig.php
 */config/development
 */writable/logs/*
 !*/logs/index.html
